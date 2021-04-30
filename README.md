@@ -2,8 +2,6 @@
 
 A simple timer implementation based on Libevent. 
 
-Complilation steps:
+Complilation steps: `gcc timer.c -levent -o timer`
 
-gcc timer.c -levent -o timer
-
-Execute: ./timer <time in seconds> 
+Execute: `./timer <time in seconds>` 
